@@ -1,0 +1,199 @@
+/* CSS Reset */
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+}
+
+/* Global Style Start */
+section {
+	height: 700px;
+	padding-bottom: 150px;
+}
+
+h1,
+h2 {
+	font-family: "Bebas Neue", cursive;
+	font-weight: 400;
+	padding-top: 150px;
+}
+
+h1 {
+	color: #363958;
+	font-size: 80px;
+	margin: 0;
+}
+
+h2 {
+	color: #363958;
+	font-size: 48px;
+}
+
+p {
+	color: #3e3e3e;
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+.half-width img {
+	width: 100%;
+	height: 100%;
+}
+/* Global Style End */
+
+/* Nav Section Style Start */
+.nav-section ul {
+	list-style: none;
+	text-align: right;
+	padding: 0 25px;
+}
+
+.nav-section li {
+	display: inline-block;
+}
+
+.nav-section a {
+	text-decoration: none;
+	color: #3c3c3c;
+	padding-right: 35px;
+	font-weight: 500;
+	float: right;
+}
+
+.nav-section {
+	margin: 50px;
+}
+/* Nav Section Style End */
+
+/* Top Section Style Start */
+.half-width {
+	width: 40%;
+	margin-left: 5%;
+	padding-left: 2%;
+	float: left;
+}
+
+#orange-heading {
+	color: #ff8367;
+}
+
+.button {
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 55px;
+	border-radius: 7px;
+	background: linear-gradient(
+		180deg,
+		rgba(244, 96, 96, 1) 5%,
+		rgba(245, 97, 96, 1) 10%,
+		rgba(253, 118, 98, 1) 95%
+	);
+}
+/* Top Section Style End */
+
+/* Latest Project Section Style Start */
+.latest-work {
+	margin-top: 165px;
+	background-color: #f1f1f1;
+}
+
+.latest-work h2 {
+	text-align: center;
+	padding: 120px 0;
+	margin: -20px;
+}
+
+.latest-highlight {
+	color: #f46060;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.card {
+	width: 300px;
+	text-align: left;
+	float: left;
+	margin: 15px;
+	font-size: 16px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 2px 1px 16px gray;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card .card-image,
+.card-content {
+	padding: 10px;
+}
+
+.card-content h4 {
+	color: #363958;
+	font-weight: bold;
+}
+/* Latest Project Section Style End */
+
+/* Work Inquiry Section Style Start */
+.work-container {
+	text-align: center;
+	padding: 150px 0;
+}
+
+.work-contents {
+	position: relative;
+	top: -150px;
+}
+
+.work-contents h2 {
+	position: relative;
+	left: -285px;
+	bottom: 180px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.work-contents a {
+	position: relative;
+	right: -285px;
+	bottom: 265px;
+	padding: 20px 30px;
+}
+/* Work Inquiry Section Style End */
+
+/* Stay Connected Section Style Start */
+.stay-connected {
+	text-align: center;
+	padding-bottom: 70px;
+	margin-top: -315px;
+}
+
+.stay-connected h3 {
+	font-family: "Bebas Neue", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	color: #696871;
+}
+
+.stay-connected h2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-transform: lowercase;
+	padding-top: 0;
+	color: #363958;
+}
+
+.footer-icons img {
+	width: 40px;
+	padding-right: 20px;
+}
+/* Stay Connected Section Style End */
